@@ -2,10 +2,8 @@
 const btn = document.getElementById("btn");
 function callme(){
 		const selectElement = document.getElementById("colorSelect");
-	//total options
-     let selectOptions = selectElement.options;
 	//selected option
-     let selected = selectOptions.selectedIndex;
+     let selected = selectElement.selectedIndex;
 	//remove selected option
 	selectElement.remove(selected);
 }
